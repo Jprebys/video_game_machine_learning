@@ -12,4 +12,4 @@ Here is a project where I will use natural language processing and other techniq
 
 My original idea was to use this modeling to target global sales figures, but I decided to instead focus on critical reception for a few reasons. First, critics review games on the same scale: for the Metacritic data that I gathered these scores range from 0 to 100. This is useful because for different sized game studios, the thresholds for commercial success are very different. Second, there is a clear link between Metacritic score and global sales, which you can see below 
 
-![Critic Score vs Global Sales](./src/figures/)
+![Critic Score vs Global Sales](./src/figures/median_sales.png)
