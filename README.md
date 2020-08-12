@@ -72,8 +72,17 @@ Additionally, once I have a model that can sufficiently process the content of a
 
 
 
-### Contanct Info
+### Contact Info
 
 |  Github |        Email        | LinkedIn |
 |:-------:|:-------------------:|:--------:|
-| jprebys | jakers991@gmail.com |  jprebys |
+| jprebys | jakers991@gmail.com |  jprebys |  
+  
+    
+    
+  
+
+
+
+
+*Header Image by Ivan_Shenets / Shutterstock*
