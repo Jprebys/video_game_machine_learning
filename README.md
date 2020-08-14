@@ -76,7 +76,7 @@ Additionally, once I have a model that can sufficiently process the content of a
 
 |  Github |        Email        | LinkedIn |
 |:-------:|:-------------------:|:--------:|
-| jprebys | jakers991@gmail.com |  jprebys |  
+| jprebys | jacobprebys@gmail.com |  jprebys |  
   
     
     
