@@ -14,7 +14,7 @@ by Jacob Prebys
 📁 **notebooks**
         - All Jupyter Notebooks used for gathering and exploring data, as well as modeling work 
 
-📁 **report** - Final Jupyter Notebook is located [here](./report/final_report.ipynb) as well are the [presentation slides](./report/final_presentation.pptx)
+📁 **report** - Final Jupyter Notebook is located [here](./report/final_report.ipynb), my notebook for my neural network implementation is [here](report/neural_net_implementaion.ipynb) as well are the [presentation slides](report/final_presentation.pptx)
 
 📁 **src** - All images used and produced in this project, and all Python scripts
 
@@ -47,9 +47,16 @@ For the processing I did some standard NLP document preprocessing. I adjusted ca
 I started off with a baseline model that involved a count-vectorizer and a support vector classifier. With this first model I achieved about 45% accuracy across the three classes. From there I switched to the more sophisticated TF-IDF vectorizer that takes into account not only the frequency of a word in a document, but also penalizes that word for appearing too frequently across all documents. This improved my model performance to about 60% accuracy. Through hyper-parameter tuning I was able to achieve a maximum accuracy of about 65%.
 
 
+### Neural Network Implementation
+
+I go deeper into exploring the usefulness of Convolutional Neural Networks (CNNs) for a problem like this one. With some heavy preprocessing, I was able to get this corpus in a form that works with the CNN, and I have so far raised my testing accuracy to **68%**.
+
+To achieve this score I used a Wikipedia-trained word embedding model from the [Wikipedia2Vec project](https://wikipedia2vec.github.io/wikipedia2vec/) paired with the popular [Yoon Kim model](https://arxiv.org/pdf/1408.5882.pdf) for CNN sentence classification
+
+
 ### Evaluation
 
-While an accuracy of 65% is not great, it does suggest that there is some connection to be uncovered about the description of a video game and its critical reception. I am confident that with further exploration this result can be improved significantly. 
+While an accuracy of 68% is not great, it does suggest that there is some connection to be uncovered about the description of a video game and its critical reception. I am confident that with further exploration this result can be improved.  
 
 ### Future Improvement Ideas
 
@@ -57,6 +64,7 @@ First of all, I would like to get some better model performance. To do this I sh
 
 1. Making a more comprehensive stop-word list
 2. Extracting the features from my model to determine what exactly determines a 'good' game
+3. Follow advancements in the field of neural networks for language processing tasks
 
 Additionally, once I have a model that can sufficiently process the content of a game in this way, I would like to roll it into a content-based recommendation system. This app can be deployed through Dash and accessible via Heroku.
 
