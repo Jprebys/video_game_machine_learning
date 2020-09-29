@@ -49,14 +49,14 @@ I started off with a baseline model that involved a count-vectorizer and a suppo
 
 ### Neural Network Implementation
 
-I go deeper into exploring the usefulness of Convolutional Neural Networks (CNNs) for a problem like this one. With some heavy preprocessing, I was able to get this corpus in a form that works with the CNN, and I have so far raised my testing accuracy to **68%**.
+I go deeper into exploring the usefulness of Convolutional Neural Networks (CNNs) for a problem like this one. With some heavy preprocessing, I was able to get this corpus in a form that works with the CNN, and I have so far raised my testing accuracy to **72%**.
 
 To achieve this score I used a Wikipedia-trained word embedding model from the [Wikipedia2Vec project](https://wikipedia2vec.github.io/wikipedia2vec/) paired with the popular [Yoon Kim model](https://arxiv.org/pdf/1408.5882.pdf) for CNN sentence classification
 
 
 ### Evaluation
 
-While an accuracy of 68% is not great, it does suggest that there is some connection to be uncovered about the description of a video game and its critical reception. I am confident that with further exploration this result can be improved.  
+While an accuracy of 72% is not great, it does suggest that there is some connection to be uncovered about the description of a video game and its critical reception. I am confident that with further exploration this result can be improved.  
 
 ### Future Improvement Ideas
 
